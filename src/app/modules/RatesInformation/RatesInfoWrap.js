@@ -3,93 +3,8 @@ import ListGroup from '../components/ListGroup/ListGroup'
 import DownArrow from '../../../assets/media/icons/down-arrow.png';
 import backGround from '../../../assets/media/icons/background.png';
 import $ from 'jquery'; 
-var savedBoxData = {
-    id: 2,
-    name: 'Large Box (30 Pieces)',
-    price: 300.00,
-    data: [
-        {
-            name: 'Nigiri Sushi',
-            max: 12,
-            counter: 3,
-            id: 1,
-            pieces: [
-                {
-                    id: 1,
-                    name: 'Shrimp',
 
-                },
-                {
-                    id: 2,
-                    name: 'Salamon',
 
-                },
-                {
-                    id: 3,
-                    name: 'Tuna',
-
-                },
-                {
-                    id: 4,
-                    name: 'Octopus',
-
-                }
-            ]
-        },
-        {
-            name: 'Ura Maki',
-            max: 12,
-            counter: 3,
-            id: 2,
-            pieces: [
-                {
-                    id: 1,
-                    name: 'California',
-
-                },
-                {
-                    id: 2,
-                    name: 'Shrimp Tempura',
-
-                },
-                {
-                    id: 3,
-                    name: 'Togarashi',
-
-                },
-                {
-                    id: 4,
-                    name: 'Spider',
-
-                }
-            ]
-        },
-        {
-            name: 'Ura Temaki',
-            max: 6,
-            counter: 2,
-            id: 3,
-            pieces: [
-                {
-                    id: 1,
-                    name: 'Ikura',
-
-                },
-                {
-                    id: 2,
-                    name: 'Tuna Temaki',
-
-                },
-                {
-                    id: 3,
-                    name: 'Eel Temaki',
-
-                },
-                
-            ]
-        }
-    ]
-}
 function RatesInfoWrap() {
     const [counter, setCounter] = useState(1)
     const [sushiData, setSushiData] = useState([
@@ -189,7 +104,7 @@ function RatesInfoWrap() {
             return
         }
         setCounter(prevState => prevState + 1)
-        setSushiData(prevState => [...prevState, {...savedBoxData, id: counter + 1}])
+        setSushiData(prevState => [...prevState, {...prevState[0], id: counter + 1}])
     }
 
     const deceraseCounter = () => {
