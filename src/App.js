@@ -1,15 +1,14 @@
 import React from 'react'
 import RatesInfoWrap from './app/modules/RatesInformation/RatesInfoWrap'
 import ScrollReverse from './app/shell/ScrollReverse'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router,HashRouter, Route, Switch } from "react-router-dom";
 import FooterNav from './app/shell/layout/FooterNav';
 
 
 function App() {
     return (
         <>
-            
-            <Router>
+            <HashRouter>
                 <ScrollReverse />
 
                 <div className="app-contain">
@@ -43,7 +42,7 @@ function App() {
                 
                 
             
-            </Router>
+            </HashRouter>
 
         </>
     )
