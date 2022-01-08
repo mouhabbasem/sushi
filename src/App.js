@@ -1,8 +1,9 @@
 import React from 'react'
 import RatesInfoWrap from './app/modules/RatesInformation/RatesInfoWrap'
 import ScrollReverse from './app/shell/ScrollReverse'
-import { BrowserRouter as Router,HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import FooterNav from './app/shell/layout/FooterNav';
+import backGround from '../src/assets/media/icons/background.png';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
                             </div>
 
                         </div>
-                        <div className="app-background"></div>
+                        <div className="app-background" style={{backgroundImage: "url("+ backGround +")"}}></div>
                     </div>
                 </div>
                 

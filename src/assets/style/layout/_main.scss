@@ -6,7 +6,9 @@
         .app-background {
             height: 100vh;
             width: calc(100% - 380px);
-            background: -webkit-image-set(url("https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/05/ec/05eca4c471c080050df05dd299bad5a2.jpg") 1x, url("https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/b9/dc/b9dc3c278495862ee3cb7cb076a4dfa3.jpg") 2x) center center / cover no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             @media (max-width: 992px) {
                 display: none;
             }

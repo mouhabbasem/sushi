@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import ListGroup from '../components/ListGroup/ListGroup'
 import DownArrow from '../../../assets/media/icons/down-arrow.png';
-
+import backGround from '../../../assets/media/icons/background.png';
 import $ from 'jquery'; 
 var savedBoxData = {
     id: 2,
@@ -101,7 +101,7 @@ function RatesInfoWrap() {
                 {
                     name: 'Nigiri Sushi',
                     max: 12,
-                    counter: 3,
+                    counter: 4,
                     id: 1,
                     pieces: [
                         {
@@ -211,7 +211,7 @@ function RatesInfoWrap() {
 
     return (
         <div className="app-data-info">
-            <div className="app-info-head"></div>
+            <div className="app-info-head" style={{backgroundImage: "url("+ backGround +")"}}></div>
             <div className="app-info-body">
                 <div className="app-info-main-head">
                     <div className='app-info-main-title'>

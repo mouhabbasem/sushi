@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import backGround from '../../../../assets/media/icons/background.png';
+import Modal from '../../../shell/Modal';
 
 function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNote, firstTimeNote, setFirstTimeNote}) {
     const [localCounter, setLocaleCounter] = useState(0)
@@ -29,11 +31,15 @@ function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNo
 
     }
     
-    
+
+    const [showFullScreen, setShowFullScreen] = useState(false)
+    const handleFullScreen = (status) => {
+        setShowFullScreen(status)
+    }
     return (
         <li>
-            <div className='list-group-item-title'>
-                <div className='asset-wrap' style={{backgroundImage: "url('https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/97/a1/97a1661426d180f84b29b7762150c8d0.jpg')"}}></div>
+            <div className='list-group-item-title' onClick={() => handleFullScreen(true)}>
+                <div className='asset-wrap' style={{backgroundImage: "url("+ backGround +")"}}></div>
                 <p>{data.name}</p>
             </div>
             <div className='list-group-item-price'>
@@ -55,6 +61,16 @@ function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNo
                     </div>
                 </div>
             </div>
+
+            {
+                showFullScreen
+                ?   <Modal closeModal={() => handleFullScreen(false)}>
+                        <div className='screen-img' style={{backgroundImage: "url("+ backGround +")"}}></div>
+                    </Modal>
+                :   null
+
+            }
+            
         </li>
     )
 }
