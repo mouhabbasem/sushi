@@ -1,0 +1,68 @@
+.app-contain {
+    .app-wrap {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        .app-background {
+            height: 100vh;
+            width: calc(100% - 380px);
+            background: -webkit-image-set(url("https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/05/ec/05eca4c471c080050df05dd299bad5a2.jpg") 1x, url("https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/b9/dc/b9dc3c278495862ee3cb7cb076a4dfa3.jpg") 2x) center center / cover no-repeat;
+            @media (max-width: 992px) {
+                display: none;
+            }
+        }
+        .app-data {
+            height: 100vh;
+            width: 380px;
+            box-shadow: $box-shadow;
+            position: relative;
+            @media (max-width: 992px) {
+                height: auto;
+                width: 100%;
+            }
+        }
+        .app-data-head {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            padding: 16px;
+            z-index: 1000;
+        }
+        .app-data-body {
+            height: calc(100% - 80px);
+            @media (max-width: 992px) {
+                height: auto;
+                margin-bottom: 80px;
+            }
+        }
+        .app-data-foot {
+            width: 100%;
+            padding: 16px;
+            @media (max-width: 768px) {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+            }
+        }
+
+    }
+}
+
+.back-btn {
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 24px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0px 8px;
+    box-shadow: $box-shadow;
+}

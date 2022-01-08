@@ -1,0 +1,43 @@
+/*
+     ███████╗ ██████╗ ███╗   ██╗████████╗███████╗
+    ██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝██╔════╝
+   █████╗  ██║   ██║██╔██╗ ██║   ██║   ███████╗
+  ██╔══╝  ██║   ██║██║╚██╗██║   ██║   ╚════██║
+ ██║     ╚██████╔╝██║ ╚████║   ██║   ███████║
+╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+ Font, line-height, and color for body text, headings, and more.
+*/
+
+
+
+/*
+** 		   Fonts
+** =======================
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&display=swap');
+
+$font-family-en: 'Montserrat', 'Segoe UI', sans-serif;
+$font-family-base: $font-family-en;
+
+
+
+/*
+** 		   Font Size
+** =======================
+*/
+$font-size-root: 16px;
+$font-size-medium: 14px;
+$font-size-small: 12px;
+
+
+/*
+** 		   Colors
+** =======================
+*/
+
+$primary-black: #000;
+$primary-white: #fff;
+$primary-blue: #2c5b92;
+$box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.09);
+$border-radius: 5px;
+

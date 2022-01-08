@@ -1,0 +1,30 @@
+.rates-convert-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    .rates-convert-item {
+        width: calc(50% - 8px);
+        margin-right: 16px;
+        &:nth-child(2n + 0) {
+            margin-right: 0;
+        }
+        &.full {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+}
+.amount-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    span {
+        font-size: 28px;
+    }
+    strong {
+        font-size: 24px;
+    }
+}
