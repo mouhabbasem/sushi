@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/sushi/static/css/main.eb06f661.chunk.css",
-    "main.js": "/sushi/static/js/main.85ea007c.chunk.js",
-    "main.js.map": "/sushi/static/js/main.85ea007c.chunk.js.map",
+    "main.css": "/sushi/static/css/main.8277592f.chunk.css",
+    "main.js": "/sushi/static/js/main.6d9f1c5a.chunk.js",
+    "main.js.map": "/sushi/static/js/main.6d9f1c5a.chunk.js.map",
     "runtime-main.js": "/sushi/static/js/runtime-main.0be7ff04.js",
     "runtime-main.js.map": "/sushi/static/js/runtime-main.0be7ff04.js.map",
-    "static/js/2.112932ac.chunk.js": "/sushi/static/js/2.112932ac.chunk.js",
-    "static/js/2.112932ac.chunk.js.map": "/sushi/static/js/2.112932ac.chunk.js.map",
+    "static/js/2.e80490ae.chunk.js": "/sushi/static/js/2.e80490ae.chunk.js",
+    "static/js/2.e80490ae.chunk.js.map": "/sushi/static/js/2.e80490ae.chunk.js.map",
     "static/js/3.b34c0b42.chunk.js": "/sushi/static/js/3.b34c0b42.chunk.js",
     "static/js/3.b34c0b42.chunk.js.map": "/sushi/static/js/3.b34c0b42.chunk.js.map",
     "index.html": "/sushi/index.html",
-    "static/css/main.eb06f661.chunk.css.map": "/sushi/static/css/main.eb06f661.chunk.css.map",
-    "static/js/2.112932ac.chunk.js.LICENSE.txt": "/sushi/static/js/2.112932ac.chunk.js.LICENSE.txt",
+    "static/css/main.8277592f.chunk.css.map": "/sushi/static/css/main.8277592f.chunk.css.map",
+    "static/js/2.e80490ae.chunk.js.LICENSE.txt": "/sushi/static/js/2.e80490ae.chunk.js.LICENSE.txt",
+    "static/media/background.13c738c3.png": "/sushi/static/media/background.13c738c3.png",
     "static/media/tick-mark.3590b623.png": "/sushi/static/media/tick-mark.3590b623.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0be7ff04.js",
-    "static/js/2.112932ac.chunk.js",
-    "static/css/main.eb06f661.chunk.css",
-    "static/js/main.85ea007c.chunk.js"
+    "static/js/2.e80490ae.chunk.js",
+    "static/css/main.8277592f.chunk.css",
+    "static/js/main.6d9f1c5a.chunk.js"
   ]
 }
