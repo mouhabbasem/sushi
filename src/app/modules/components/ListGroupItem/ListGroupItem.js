@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import backGround from '../../../../assets/media/icons/background.png';
 import Modal from '../../../shell/Modal';
 
 function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNote, firstTimeNote, setFirstTimeNote}) {
@@ -15,7 +14,7 @@ function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNo
             setShowNote(true)
             setTimeout(() => {
                 setShowNote(false)
-            }, 1500)
+            }, 3000)
         }
 
         setFirstTimeNote(false)
@@ -39,7 +38,7 @@ function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNo
     return (
         <li>
             <div className='list-group-item-title' onClick={() => handleFullScreen(true)}>
-                <div className='asset-wrap' style={{backgroundImage: "url("+ backGround +")"}}></div>
+                <div className='asset-wrap' style={{backgroundImage: "url("+ data.image +")"}}></div>
                 <p>{data.name}</p>
             </div>
             <div className='list-group-item-price'>
@@ -65,7 +64,7 @@ function ListGroupItem({data, counter, max, isReachedMax, setLocalMax, setShowNo
             {
                 showFullScreen
                 ?   <Modal closeModal={() => handleFullScreen(false)}>
-                        <div className='screen-img' style={{backgroundImage: "url("+ backGround +")"}}></div>
+                        <div className='screen-img' style={{backgroundImage: "url("+ data.image +")"}}></div>
                     </Modal>
                 :   null
 

@@ -22,21 +22,25 @@ function RatesInfoWrap() {
                         {
                             id: 1,
                             name: 'Shrimp',
+                            image: 'https://image.shutterstock.com/image-photo/sushi-shrimp-260nw-387019609.jpg'
         
                         },
                         {
                             id: 2,
                             name: 'Salamon',
+                            image: 'https://images.deliveryhero.io/image/otlob/menuitems/Sake_Nigiri_637652431297207467.jpg'
         
                         },
                         {
                             id: 3,
                             name: 'Tuna',
+                            image: 'https://img-global.cpcdn.com/recipes/b59a774de67f13dc/1200x630cq70/photo.jpg'
         
                         },
                         {
                             id: 4,
                             name: 'Octopus',
+                            image: 'https://qph.fs.quoracdn.net/main-qimg-8ba1a075b233dca5b4732c5a59c08550-lq'
         
                         }
                     ]
@@ -50,21 +54,25 @@ function RatesInfoWrap() {
                         {
                             id: 1,
                             name: 'California',
+                            image: 'https://www.yummyhealthyeasy.com/wp-content/uploads/2018/04/california-sushi-rolls-square.jpg'
         
                         },
                         {
                             id: 2,
                             name: 'Shrimp Tempura',
+                            image: 'https://www.mashed.com/img/gallery/shrimp-tempura-roll-what-you-should-know-before-ordering/l-intro-1628971551.jpg'
         
                         },
                         {
                             id: 3,
                             name: 'Togarashi',
+                            image: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/97/81/2e/special-sushi.jpg'
         
                         },
                         {
                             id: 4,
                             name: 'Spider',
+                            image: 'https://media-cdn.tripadvisor.com/media/photo-s/14/c9/32/a2/spider-sushi-rolls.jpg'
         
                         }
                     ]
@@ -78,16 +86,19 @@ function RatesInfoWrap() {
                         {
                             id: 1,
                             name: 'Ikura',
+                            image: 'https://media.istockphoto.com/photos/close-up-ikura-sushi-with-seaweed-picture-id491170760'
         
                         },
                         {
                             id: 2,
                             name: 'Tuna Temaki',
+                            image: 'https://iheartumami.com/wp-content/uploads/2019/09/Temaki-Sushi-Low-Carb-Tuna-Temaki-1-500x500.jpg'
         
                         },
                         {
                             id: 3,
                             name: 'Eel Temaki',
+                            image: 'https://image.shutterstock.com/image-photo/temaki-unagi-sushi-eel-avocado-260nw-1179133216.jpg'
         
                         },
                         

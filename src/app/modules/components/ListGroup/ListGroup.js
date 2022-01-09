@@ -25,7 +25,7 @@ function ListGroup({item}) {
                         <strong> {item.name} </strong>
                         <div className='list-group-head-info'>
                             <img src={Info} alt="info" />
-                            <span>Each item is {item.counter} pieces.</span>
+                            <span>Item adds in multiples of {item.counter} pieces.</span>
                         </div>
                     </div>
                     
